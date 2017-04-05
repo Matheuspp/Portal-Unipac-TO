@@ -29,7 +29,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Unipac-TO</a>
+            <a class="navbar-brand" href="#"><img src="img/logo_unipac2.png" alt="Dispute Bills">
+            </a>
          </div>
          <!--/.navbar-header-->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -110,7 +111,7 @@
                               <li><a href="#">Publicidade e Propaganda</a></li>
                               <li><a href="#">Turismo</a></li>
                               <li><a href="#">Serviço Social</a></li>
-                            </ul>
+                           </ul>
                         </div>
                         <div class="col-sm-3">
                            <ul class="multi-column-dropdown">
@@ -121,19 +122,19 @@
                               <li><a href="#">Sistemas de Informação</a></li>
                               <li><a href="#">Processos Gerenciais</a></li>
                               <li><a href="#">Engenharia Civil</a></li>
-                            </ul>
+                           </ul>
                         </div>
-                         <div class="col-sm-3">
+                        <div class="col-sm-3">
                            <ul class="multi-column-dropdown">
                               <li class="dropdown-header">Exatas e da Terra</li>
                               <li role="separator" class="divider"></li>
                               <li><a href="#">Agronomia</a></li>
-                            </ul>
+                           </ul>
                         </div>
                      </div>
                   </ul>
                </li>
-                <li class="dropdown">
+               <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pós Graduação<b class="caret"></b></a>
                   <ul class="dropdown-menu multi-column columns-3">
                      <div class="row">
@@ -143,7 +144,7 @@
                               <li role="separator" class="divider"></li>
                               <li><a href="#">Relação de Cursos Pós Graduação</a></li>
                            </ul>
-                        </div>                        
+                        </div>
                      </div>
                   </ul>
                </li>
@@ -163,7 +164,7 @@
                               <li><a href="#">Servidor/Contra-cheques</a></li>
                               <li><a href="#">Nivelamento</a></li>
                            </ul>
-                        </div>                        
+                        </div>
                      </div>
                   </ul>
                </li>
@@ -172,7 +173,7 @@
                   <ul class="dropdown-menu multi-column columns-3">
                      <div class="row">
                         <div class="col-sm-4">
-                           <ul class="multi-column-dropdown">                           
+                           <ul class="multi-column-dropdown">
                               <li><a href="#">Diretoria</a></li>
                               <li><a href="#">Departamento e Orgãos</a></li>
                               <li><a href="#">Editais</a></li>
@@ -181,11 +182,9 @@
                               <li><a href="#">Servidor/Contra-cheques</a></li>
                               <li><a href="#">Nivelamento</a></li>
                            </ul>
-                        </div>                        
+                        </div>
                      </div>
                   </ul>
-               </li>
-               <li><a href="#">Link</a></li>
             </ul>
          </div>
          <!--/.navbar-collapse-->
@@ -193,6 +192,48 @@
       <!--/.navbar-->
       <div class="container">
       <!-- Main component for a primary marketing message or call to action -->
+      <!-- Carousel
+         ================================================== -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner" role="listbox">
+            <div class="item active">
+               <img class="first-slide .img-responsive no-padding" src="img/slide/banner_acolhimento.jpg" alt="First slide">
+               <div class="container">
+                  <div class="carousel-caption">              
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <img class="second-slide .img-responsive no-padding" src="img/slide/banner_adm_palestra.jpg" alt="Second slide">
+               <div class="container">
+                  <div class="carousel-caption">
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <img class="third-slide .img-responsive no-padding" src="img/slide/banner_coordenador_fisio.jpg" alt="Third slide">
+               <div class="container">
+                  <div class="carousel-caption">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         <span class="sr-only">Anterior</span>
+         </a>
+         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+         <span class="sr-only">Próximo</span>
+         </a>
+      </div>
+      <!-- /.carousel -->
       <div class="jumbotron">
          <h1>Navbar example</h1>
          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
@@ -205,6 +246,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
       <script src="js/bootstrap.min.js"></script>
+      <script href="https://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
    </body>
 </html>
 
