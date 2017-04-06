@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
    <head>
@@ -21,7 +19,50 @@
    </head>
    <body>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <nav class="navbar navbar-inverse navpreta" role="navigation">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>            
+         </div>
+         <!--/.navbar-header-->
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav nav-login">
+              
+               <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Módulo Aluno</b> <span class="caret"></span></a>
+      <ul id="login-dp" class="dropdown-menu">
+        <li>
+           <div class="row">
+              <div class="col-md-12">
+                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputEmail2">Usuário</label>
+                       <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Usuário" required>
+                    </div>
+                    <div class="form-group">
+                       <label class="sr-only" for="exampleInputPassword2">Senha</label>
+                       <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Senha" required>
+                                            
+                    </div>
+                    <div class="form-group">
+                       <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                    </div>
+                   
+                 </form>
+              </div>
+              
+           </div>
+        </li>
+               
+            </ul>
+         </div>
+</nav>
+      <nav class="navbar navbar-default" role="navigation">
          <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
@@ -29,19 +70,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo_unipac2.png" alt="Dispute Bills">
-            </a>
+            <a class="navbar-brand" href="#">Brand</a>
          </div>
          <!--/.navbar-header-->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Início<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Início <b class="caret"></b></a>
                   <ul class="dropdown-menu multi-column columns-3">
                      <div class="row">
                         <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
-                              <li class="dropdown-header">Início</li>
                               <li role="separator" class="divider"></li>
                               <li><a href="#">Módulo Aluno</a></li>
                               <li><a href="#">Módulo Professor</a></li>
@@ -51,16 +90,17 @@
                         </div>
                         <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
-                              <li><a href="#">Porquê escolher a Unipac?</a></li>
-                              <li><a href="#">Transferência para a Unipac</a></li>
-                              <li><a href="#">Últimas Notícias</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Por que escolher a Unipac?</a></li>
+                              <li><a href="#">Transferência Para a Unipac</a></li>
                               <li><a href="#">Trabalhe Conosco</a></li>
+                              <li><a href="#">Política de Privacidade</a></li>
                            </ul>
                         </div>
                         <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
-                              <li><a href="#">Politica de Privacidade</a></li>
-                              <li><a href="#">Vestibular</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Vestíbular</a></li>
                               <li><a href="#">Matrículas</a></li>
                               <li><a href="#">Visita Virtual</a></li>
                               <li><a href="#">Localização & Endereço da Unipac</a></li>
@@ -68,12 +108,11 @@
                         </div>
                      </div>
                   </ul>
-               </li>
                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Graduação<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Graduação <b class="caret"></b></a>
                   <ul class="dropdown-menu multi-column columns-3">
                      <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
                               <li class="dropdown-header">Humanas e Sociais</li>
                               <li role="separator" class="divider"></li>
@@ -87,7 +126,7 @@
                               <li><a href="#">Gestão Pública</a></li>
                            </ul>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
                               <li class="dropdown-header">Biológicas e Saúde</li>
                               <li role="separator" class="divider"></li>
@@ -102,7 +141,7 @@
                               <li><a href="#">Gastronomia</a></li>
                            </ul>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
                               <li class="dropdown-header">Sociais Aplicadas</li>
                               <li role="separator" class="divider"></li>
@@ -113,7 +152,7 @@
                               <li><a href="#">Serviço Social</a></li>
                            </ul>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
                               <li class="dropdown-header">Engenharia e Tecnologia</li>
                               <li role="separator" class="divider"></li>
@@ -124,9 +163,9 @@
                               <li><a href="#">Engenharia Civil</a></li>
                            </ul>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
-                              <li class="dropdown-header">Exatas e da Terra</li>
+                              <li class="dropdown-header">Exatas e Terra</li>
                               <li role="separator" class="divider"></li>
                               <li><a href="#">Agronomia</a></li>
                            </ul>
@@ -135,12 +174,12 @@
                   </ul>
                </li>
                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pós Graduação<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pós-Graduação <b class="caret"></b></a>
                   <ul class="dropdown-menu multi-column columns-3">
                      <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-12">
                            <ul class="multi-column-dropdown">
-                              <li class="dropdown-header">Pós Graduação-Unipac-To</li>
+                              <li class="dropdown-header">Pós-Graduação Unipac TO</li>
                               <li role="separator" class="divider"></li>
                               <li><a href="#">Relação de Cursos Pós Graduação</a></li>
                            </ul>
@@ -149,91 +188,31 @@
                   </ul>
                </li>
                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Institucional<b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Institucional <b class="caret"></b></a>
                   <ul class="dropdown-menu multi-column columns-3">
                      <div class="row">
                         <div class="col-sm-4">
                            <ul class="multi-column-dropdown">
-                              <li class="dropdown-header">Conheça mais sobre a Unipac</li>
+                              <li class="dropdown-header">Conheça Mais Sobre a Unipac</li>
                               <li role="separator" class="divider"></li>
                               <li><a href="#">Diretoria</a></li>
-                              <li><a href="#">Departamento e Orgãos</a></li>
-                              <li><a href="#">Editais</a></li>
+                              <li><a href="#">Departamente e Orgãos</a></li>
                               <li><a href="#">Portarias</a></li>
                               <li><a href="#">Regimentos</a></li>
                               <li><a href="#">Servidor/Contra-cheques</a></li>
-                              <li><a href="#">Nivelamento</a></li>
                            </ul>
                         </div>
                      </div>
                   </ul>
                </li>
-               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Biblioteca e Revista<b class="caret"></b></a>
-                  <ul class="dropdown-menu multi-column columns-3">
-                     <div class="row">
-                        <div class="col-sm-4">
-                           <ul class="multi-column-dropdown">
-                              <li><a href="#">Diretoria</a></li>
-                              <li><a href="#">Departamento e Orgãos</a></li>
-                              <li><a href="#">Editais</a></li>
-                              <li><a href="#">Portarias</a></li>
-                              <li><a href="#">Regimentos</a></li>
-                              <li><a href="#">Servidor/Contra-cheques</a></li>
-                              <li><a href="#">Nivelamento</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </ul>
+               <li><a href="#">Biblioteca e Revista</a></li>
+
             </ul>
          </div>
          <!--/.navbar-collapse-->
       </nav>
-      <!--/.navbar-->
       <div class="container">
       <!-- Main component for a primary marketing message or call to action -->
-      <!-- Carousel
-         ================================================== -->
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-         <!-- Indicators -->
-         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-         </ol>
-         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-               <img class="first-slide .img-responsive no-padding" src="img/slide/banner_acolhimento.jpg" alt="First slide">
-               <div class="container">
-                  <div class="carousel-caption">              
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <img class="second-slide .img-responsive no-padding" src="img/slide/banner_adm_palestra.jpg" alt="Second slide">
-               <div class="container">
-                  <div class="carousel-caption">
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <img class="third-slide .img-responsive no-padding" src="img/slide/banner_coordenador_fisio.jpg" alt="Third slide">
-               <div class="container">
-                  <div class="carousel-caption">
-                  </div>
-               </div>
-            </div>
-         </div>
-         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-         <span class="sr-only">Anterior</span>
-         </a>
-         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-         <span class="sr-only">Próximo</span>
-         </a>
-      </div>
-      <!-- /.carousel -->
       <div class="jumbotron">
          <h1>Navbar example</h1>
          <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
@@ -243,10 +222,10 @@
          </p>
       </div>
       <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/jquery-3.2.0.min.js"></script>
       <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
       <script src="js/bootstrap.min.js"></script>
-      <script href="https://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
+      <script href="js/holder.min.js"></script>
    </body>
 </html>
 
